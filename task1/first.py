@@ -107,7 +107,7 @@ cap = cv2.VideoCapture(0)
 status, photo = cap.read()
 
 #Now to views the photo use imshow-
-cv2.imshow('My', photo)
+cv2.imshow('MyWindowName', photo)
 cv2.waitKey()
 cv2.destroyAllWindows()
 
