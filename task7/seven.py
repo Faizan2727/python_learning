@@ -15,7 +15,7 @@ print(jack.phone)
 
 # We can see that jack is not able to access phone variable because phone attribute is private
 
-jack.phone
+print(jack.phone)
 
 # Object can access function of class from outside.
 # Whenever object access the function object sends its memory address to the function.
