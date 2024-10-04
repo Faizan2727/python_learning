@@ -6,7 +6,7 @@ class VisitorForm:
     email = None
     query = None
 
-# Create an object from this class
+# Create an object from this class it is also called instantiation in oops.
 
 jack = VisitorForm()
 print(jack.phone)
@@ -57,4 +57,4 @@ tom.setEmail("faiz@gmail.com")
 print(tom.getEmail())
 
 # Also we can directly pass the input to the constructor. We don't need seperate methods for it.
-
+#
