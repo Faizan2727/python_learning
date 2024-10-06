@@ -10,7 +10,7 @@ def lwsum():
 def lwmail():
     return("mail send")
 
-#app.run(port=80, host="0.0.0.0") #when you are deployin on cloud or public IP
+# app.run(port=80, host="0.0.0.0") # when you are deployin on cloud or public IP
 app.run(debug=True) # In you local machine
-
+# we can called this as server file also
 
