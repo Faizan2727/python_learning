@@ -13,7 +13,7 @@ detector = PoseDetector(staticMode=False,
                         detectionCon=0.5,
                         trackCon=0.5)
 
-# Loop to continuously get frames from the webcam
+# Loop to continuously get frames from the webcam.
 while True:
     # Capture each frame from the webcam
     success, img = cap.read()
@@ -57,7 +57,7 @@ while True:
         print(isCloseAngle50)
 
     # Display the frame in a window
-    cv2.imshow("Image", img)
+    cv2.imshow("faizan", img)
 
     # Wait for 1 millisecond between each frame
     cv2.waitKey(1)
